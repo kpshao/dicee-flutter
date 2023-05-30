@@ -37,7 +37,7 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: [
           Expanded(
-            child: ElevatedButton(
+            child: TextButton(
               child: Image.asset("images/dice$leftDiceNumber.png"),
               onPressed: () {
                 setState(() {
@@ -47,7 +47,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           Expanded(
-            child: ElevatedButton(
+            child: TextButton(
               child: Image.asset("images/dice$rightDiceNumber.png"),
               onPressed: () {
                 setState(() {
